@@ -31,6 +31,10 @@ class ViewController: UIViewController {
     }
     
    
+    @IBAction func buttonMinus(sender: AnyObject) {
+    }
 
+    @IBAction func buttonPlus(sender: AnyObject) {
+    }
 }
 
