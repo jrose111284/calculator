@@ -145,6 +145,16 @@
                                     <action selector="buttonMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dQJ-FJ-9m7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="50L-Gn-2CW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="184" y="390" width="36" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngI-YZ-i7t"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -162,6 +172,7 @@
                                 <exclude reference="vHh-oD-mWh"/>
                                 <exclude reference="SKq-0e-WBh"/>
                                 <exclude reference="Bpr-OT-QAh"/>
+                                <exclude reference="50L-Gn-2CW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -179,6 +190,7 @@
                                 <include reference="vHh-oD-mWh"/>
                                 <include reference="SKq-0e-WBh"/>
                                 <include reference="Bpr-OT-QAh"/>
+                                <include reference="50L-Gn-2CW"/>
                             </mask>
                         </variation>
                     </view>

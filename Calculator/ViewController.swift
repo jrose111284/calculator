@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func numButton(theButton: UIButton) {
-//       print(theButton.titleLabel?.text)
         if total.text == "0" {
             total.text = theButton.titleLabel?.text
         } else {
@@ -35,6 +34,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPlus(sender: AnyObject) {
+        
+    }
+    @IBAction func clear(sender: AnyObject) {
+        total.text = "0"
     }
 }
 
