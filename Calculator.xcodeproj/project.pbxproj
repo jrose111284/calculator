@@ -43,7 +43,7 @@
 		484103031CDB35A800661018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484103081CDB35A800661018 /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4841030C1CDB35A800661018 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
-		4841030E1CDB35A800661018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4841030E1CDB35A800661018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CalculatorTests/Info.plist; sourceTree = "<group>"; };
 		484103131CDB35A800661018 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484103171CDB35A800661018 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		484103191CDB35A800661018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +81,7 @@
 				4841030B1CDB35A800661018 /* CalculatorTests */,
 				484103161CDB35A800661018 /* CalculatorUITests */,
 				484102F51CDB35A800661018 /* Products */,
+				4841030E1CDB35A800661018 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				4841030C1CDB35A800661018 /* CalculatorTests.swift */,
-				4841030E1CDB35A800661018 /* Info.plist */,
 			);
 			path = CalculatorTests;
 			sourceTree = "<group>";

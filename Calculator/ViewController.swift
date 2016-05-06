@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var total: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,8 +21,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func numButton(sender: AnyObject) {
+    @IBAction func numButton(theButton: UIButton) {
+       print(theButton.titleLabel?.text)
     }
+    
+   
 
 }
 

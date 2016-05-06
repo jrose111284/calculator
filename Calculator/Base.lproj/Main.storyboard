@@ -117,6 +117,14 @@
                                     <action selector="numButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p9J-Uk-U49"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-oD-mWh">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="86" width="290" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -131,6 +139,7 @@
                                 <exclude reference="Cgk-if-i3r"/>
                                 <exclude reference="I38-2p-uTM"/>
                                 <exclude reference="Z4Z-ec-81v"/>
+                                <exclude reference="vHh-oD-mWh"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -145,12 +154,17 @@
                                 <include reference="Cgk-if-i3r"/>
                                 <include reference="I38-2p-uTM"/>
                                 <include reference="Z4Z-ec-81v"/>
+                                <include reference="vHh-oD-mWh"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="total" destination="vHh-oD-mWh" id="r7u-Sx-1mh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="439.5" y="429"/>
         </scene>
     </scenes>
 </document>
